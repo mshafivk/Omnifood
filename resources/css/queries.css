@@ -1,0 +1,191 @@
+/**
+Big tablets to 1200px : 1024px - 1200px
+*/
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+  .main-nav {
+    display: block;
+  }
+}
+
+/**
+small tablets to big tablets : 768px - 1023px
+*/
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  .main-nav li {
+    margin: 0px 30px;
+  }
+
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .steps-box {
+    margin-top: 10px;
+  }
+
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+
+  .works-step {
+    margin-bottom: 40px;
+  }
+
+  .works-step:last-of-type {
+    margin-bottom: 40px;
+  }
+
+  .works-step div {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    font-size: 120%;
+    margin-right: 10px;
+  }
+
+  .steps-box:first-child {
+    text-align: center;
+  }
+
+  .steps-box .app-screen {
+    width: 40%;
+  }
+
+  .btn-app img {
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .icon-small {
+    width: 18px;
+  }
+
+  .city-feature {
+    font-size: 90%;
+  }
+
+  .plan-box {
+    width: 96%;
+    margin-left: 0%;
+  }
+
+  .plan-price {
+    font-size: 250%;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+}
+
+/**
+small phones to small tablets : 481px - 767px
+*/
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+
+  .col {
+    width: 100%;
+    margin: 0 0 2% 0;
+  }
+
+  .mobile-nav-icon,
+  .mobile-nav-icon:link,
+  .mobile-nav-icon:visited {
+    display: inline-block;
+  }
+
+  .main-nav {
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: none;
+  }
+
+  .main-nav li {
+    display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    font-size: 100%;
+    border: 0;
+    padding: 5px;
+  }
+
+  .sticky .main-nav {
+    margin-top: 14px;
+  }
+
+  .sticky ul li a:link,
+  .sticky ul li a:visited {
+    margin-top: 8px;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+
+  h2 {
+    font-size: 150%;
+  }
+
+  .long-copy {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .works-step {
+    margin-bottom: 20px;
+  }
+
+  .works-step:last-of-type {
+    margin-bottom: 40px;
+  }
+
+  .app-screen {
+    width: 50%;
+  }
+}
+
+/**
+Small phone screens : 0 - 480px
+*/
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}
